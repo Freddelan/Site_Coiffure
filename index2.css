@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2? family= Advent+Pro:wght@100 & family= Dancing+Script & display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Advent Pro", sans-serif;
+}
+
+header {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  padding: 20px 10px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s;
+
+}
+
+.navbar {
+  display: flex;
+  font-style: italic;
+}
+
+.navbar a {
+  display: block; /* Transformation en block */
+  min-width: 120px; /* Largeur minimale des liens */
+  margin: 0.5rem; /* Marges externes (1 valeurs = 4 directions) */
+  padding: 0.4rem 0; /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+  text-align: center; /* Centrage du texte */
+  background-color: white; /* Couleur d'arrière-plan */
+  color: green; /* Couleur du texte */
+  text-decoration: none; /* Suppression du soulignement */
+  border: 1px solid pink; /* Ajout d'une bordure */
+  border-radius: 4px; /* Arrondis des bordures */
+  transition: all 1s; /* Ajout des effets de transition */
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.navbar a:hover {
+  background-color: lightpink;
+  color: #ffe843;
+  border-color: #ffe843;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.btn-reservation {
+  padding: 10px 20px;
+  margin-top: -10px;
+  background: goldenrod;
+  text-transform: uppercase;
+}
+
+.btn-reservation:hover {
+  background: lightpink;
+  transition: ease-out;
+}
+
+header .navbar li a:hover {
+  color: deeppink;
+  border-bottom: 2px solid #fb911f;
+}
+
+.logo {
+  color: green;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 6px;
+  font-family: "Dancing Script", cursive;
+  float: left;
+  font-weight: bold;
+}
+
+.logo span {
+  color: deeppink;
+  font-size: 3em;
+  font-family: "Dancing Script", cursive;
+}
+
+
+.coiffures {
+  margin-top: 50px;
+}
+
+.coiffures .contenu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  opacity: 1;
+}
+
+.coiffures .contenu .box {
+  width: 350px;
+  margin: 20px;
+  border: 20px solid #fff;
+  box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+  border: 1px pink;
+}
+
+.coiffures .contenu .box .imbox {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.coiffures .contenu .box .imbox img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.coiffures .contenu .box .text {
+  text-align: center;
+  font-weight: 300px;
+  color: deeppink;
+}
+
+.coiffures .contenu .box .text h3 {
+  font-weight: 400;
+}
